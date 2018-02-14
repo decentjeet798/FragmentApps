@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ranjeet.fragmentapps.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.ranjeet.fragmentapps.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:background="#567">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.ranjeet.fragmentapps.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:layout_margin="20sp"
+        android:name="com.ranjeet.fragmentapps.Fragment3"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+    </fragment>
+</LinearLayout>
